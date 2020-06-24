@@ -1,0 +1,218 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+nav{
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+    margin-right: 100px;
+}
+nav a {
+    padding-left: 100px;
+    float: left;
+    text-decoration: none;
+    color: white; 
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+nav ul {
+    padding-right: 100px;
+    float: right;
+    margin: 0px;
+    
+}
+nav ul li{
+    display: inline; 
+    
+   
+}
+nav ul li a{
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    color: white; 
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: transparent;
+   
+   
+}
+nav ul li a:hover{
+   
+    border-bottom: 1px solid white;
+}
+.sec-1{
+    background: url(../img/background.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+/*Header Start*/
+.header{
+    padding-top: 200px;
+}
+.header p{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   color: white;
+   margin: 0px;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+.header h1{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 100px;
+   color: white;
+   margin: 0px;
+   font-weight: 900;
+   
+}
+.header h6{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px; 
+   font-weight: 100; 
+   color: white;
+   margin: 0px;
+}
+
+.header hr{
+    width: 50px; 
+    
+}
+.header .header-icon{
+    display: inline-block;
+    
+}
+.header .header-icon i{ 
+    color: blueviolet;
+    padding: 15px;
+    background: #fefefe;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.header .header-icon i:hover{
+    background: transparent; 
+    color: #fefefe;
+}
+/*Header End*/
+
+/*About Start*/
+#about{
+    background-color: #D35400;
+    height: 600px;
+    border-bottom: 1px solid #B64A0A;
+}
+#about h3{
+    color: black; 
+    font-size: 100px;
+    font-family: 'Satisfy', cursive;
+    margin: 0px;
+    
+}
+#about h5{
+    color: black; 
+    font-size: 20px;
+    letter-spacing: 2px; 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    
+}
+#about h4{
+    color: black; 
+    font-size: 35px;
+    letter-spacing: 3px; 
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+#about p{
+    color: black; 
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    margin: 0px;
+    
+}
+/*About End */
+
+/*Contact Start*/
+
+#contact{
+    background-color: #D35400;
+    padding-bottom: 50px;
+
+   
+}
+#contact h3{
+     font-family: 'Open Sans', sans-serif;
+     color: #70D003;
+     margin: 0px;
+     padding-top: 30px;
+}
+#contact p{
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 20px; 
+    padding-top: 5px;
+}
+#contact span{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px 10px 15px 10px;
+}
+#contact form{
+    margin-top: 50px;
+
+}
+#contact form input{
+    width: 300px; 
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: white; 
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+
+::placeholder{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 330px; 
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #70D003;
+    color: white;
+    border: 1px solid white;
+}
+
+/*Contact End*/
+
+
+/*Footer Start*/
+footer h2{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: #D35400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+/*Contact End*/
